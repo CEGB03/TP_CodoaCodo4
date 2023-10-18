@@ -1,6 +1,3 @@
-.contenedor, .row{
-	margin-top: 80px;
-}
 .row{
 	font-size: 18px;
 	padding: 0;
@@ -12,6 +9,10 @@
 	BOX-SIZING: border-box;
 	width: 100%
 }
+.contenedor, .row{
+	margin-top: 80px;
+}
+
 .class{
 	font-size: 20px;
 	background-color: red;
@@ -35,13 +36,13 @@
 	background-position: center center;
 }
 .banner {
-	background: rgb(69, 2, 69);
+	background: violet;
 	border-radius: 15px;
 	text-align: center;
 	padding: 20px;
 	background-size: cover;
 	background-position: center center;
-	font-size: 12px;
+	font-size: 20px;
 }
 .banner p, .banner h1{
 	color: blueviolet;
@@ -63,11 +64,8 @@
 }
 
 .card .textos {
-	height: 100%;}
-
-	
-	
-
+	height: 100%;
+}
 
 .contenedor {
 	flex-wrap:wrap;
@@ -86,18 +84,15 @@
 	font-weight: bold;
 }
 
-.banner .boton {
-	background: #FFD600;
-	display: block;
-	width: 100%;
-	font-weight: bold;
-	font-size: 20px;
-	text-align: center;
-	padding: 10px;
-	border: none;
-	border-radius: 100px;
-	font-family: 'Roboto', sans-serif;
-	cursor: pointer;
+.textofachero {
+    background-color: #ff0000; /* Color de fondo verde */
+    color: white; /* Texto en color blanco */
+    padding: 15px; /* Relleno interno */
+    text-align: center; /* Texto centrado */
+    font-size: 18px; /* Tamaño de fuente */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 20px 0; /* Márgenes superior e inferior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
 @media screen and (max-width: 900px) {
