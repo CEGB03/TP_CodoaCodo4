@@ -1,7 +1,11 @@
 
 @import url('https://fonts.googleleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
 
-.formulario{
+#formularioyTexto{    
+    background: #03080a;
+}
+
+#miFormulario{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +14,6 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #03080a;
 }
 .contenedor{
     width: 80%;
@@ -115,4 +118,22 @@ input[type="submit"]{
     color: #000;
     font-size: 18px;
     border-radius: 2px;
+}
+
+/* Estilo para el mensaje de "primary" */
+#primary {
+    background-color: #3498db; /* Color azul, puedes cambiarlo */
+}
+
+/* Estilo para el mensaje de "secondary" */
+#secondary {
+    background-color: #34495e; /* Color gris, puedes cambiarlo */
+}
+
+.textofachero{
+    margin: 10px;
+}
+/* Estilo para el mensaje de "success" */
+#success {
+    background-color: #27ae60; /* Color verde, puedes cambiarlo */
 }

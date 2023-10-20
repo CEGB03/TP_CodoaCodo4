@@ -28,7 +28,7 @@
 .itemCarrouselTarjeta img {
     max-width: 100%;
     max-height: 100%;
-    object-fit: contain; /* O ajusta según sea necesario */
+    object-fit: contain;
 }
 
 .itemCarrouselArrows {
